@@ -1,0 +1,38 @@
+name: vality_app
+description: Controle de estoque com alerta de validade.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # conversa com o backend
+  http: ^1.2.0
+
+  # leitor de código de barras pela câmera
+  mobile_scanner: ^7.4.0
+
+  # notificações locais agendadas (os alertas de validade)
+  flutter_local_notifications: ^19.0.0
+
+  # fuso horário — o zonedSchedule precisa disso pra acertar as 13h
+  timezone: ^0.10.0
+
+  # guarda o endereço do servidor e o liga/desliga das notificações
+  shared_preferences: ^2.3.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,59 @@
+# ---------- Banco de dados ----------
+# O estoque é dado real do mercado. Nunca vai pro repositório.
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ---------- Segredos ----------
+.env
+*.env
+config_local.py
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- Flutter / Dart ----------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+.pub-cache/
+.pub/
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/key.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.jks
+*.keystore
+
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- Sistema ----------
+.DS_Store
+Thumbs.db
