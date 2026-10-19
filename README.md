@@ -4,9 +4,9 @@ Sistema que avisa quando produtos estão perto de vencer, construído para um
 mercado de bairro e **em uso diário por duas funcionárias** desde outubro de 2026.
 
 <p align="center">
-  <img src="docs/img/tela-vencendo.jpg" width="31%" alt="Alertas por urgência: vermelho já venceu, amarelo está perto">
-  <img src="docs/img/tela-produtos.jpg" width="31%" alt="Catálogo com busca por nome ou código de barras">
-  <img src="docs/img/painel-financeiro.jpg" width="31%" alt="Painel: valor em risco, já perdido e total investido">
+  <img src="docs/img/tela-vencendo.jpeg" width="31%" alt="Alertas por urgência: vermelho já venceu, amarelo está perto">
+  <img src="docs/img/tela-produtos.jpeg" width="31%" alt="Catálogo com busca por nome ou código de barras">
+  <img src="docs/img/painel-financeiro.jpeg" width="31%" alt="Painel: valor em risco, já perdido e total investido">
 </p>
 
 ---
